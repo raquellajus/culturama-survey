@@ -14,11 +14,12 @@
 </head>
 
 <body>
-    <header>
+    <main>
+        <header>
         <img src="img/logo-culturama.png" alt="Logo culturama">
         <h1>Pesquisa Online</h1>
-    </header>
-    <section>
+        </header>
+        <section>
         <form action="" method="get">
             <fieldset>                
                  <legend>Dados Pessoais</legend>
@@ -93,7 +94,7 @@
                     <option value="sergipe">Sergipe</option>
                     <option value="tocantins">Tocantins</option>
                 </select>
-
+                <br>
                 <label for="city">Cidade:</label>
                 <input type="text" id="city" name="userCity" autocomplete="address-level2" placeholder="Digite sua cidade">
                 <br>
@@ -101,8 +102,7 @@
 
             <fieldset>
                 <legend>Hábitos:</legend>
-                <p>Redes Sociais:</p>
-                <br>
+                <p>Redes Sociais:</p>            
                 <input id="instagram" type="checkbox" name="social" value="instagram">
                 <label for="instagram">Instagram</label>
                 <br>
@@ -129,7 +129,7 @@
                     <option value="Funk">
                 </datalist>
                 <br>
-                <label for="favoriteColor">Cor favorita:</label>
+                <label for="favoriteColor">Cor favorita:</label><br>
                 <input type="color" id="favoriteColor" name="userFavoriteColor">
             </fieldset>
 
@@ -149,7 +149,7 @@
                 <input type="radio" id="ruim" name="userServiceOpinion" value="ruim">
                 <label for="ruim">Ruim</label><br>
 
-                <label for="comment">Escreva sua opinião:</label>
+                <label for="comment">Escreva sua opinião:</label><br>
                 <textarea id="comment" name="userComment" rows="4" cols="50" placeholder="Digite aqui..."></textarea>
             </fieldset>
 
@@ -169,7 +169,8 @@
 
             <br>
         </form>
-    </section>
+        </section>
+    </main>
 
     
     
